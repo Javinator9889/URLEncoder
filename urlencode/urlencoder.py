@@ -15,6 +15,7 @@ try:
 except (ImportError, ModuleNotFoundError):
     print("\"ujson\" module not found. Trying installation with pip")
     install('ujson')
+    import ujson as json
 
 try:
     from urllib.parse import urlparse
@@ -37,6 +38,7 @@ try:
 except (ImportError, ModuleNotFoundError):
     print("\"requests\" module not found. Trying installation with pip")
     install('requests')
+    import requests as rq
 
 
 def urlencoder(**kwargs):
