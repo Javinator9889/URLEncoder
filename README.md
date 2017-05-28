@@ -10,8 +10,6 @@ Public lib for encoding text and URLs into valid ASCII charset for web-browsing
 * You can use `pip install URLEncoder` for easy installation
 * Although, you can **download this git** and run __setup.py__ with `python setup.py install`
 
-Go to the PyPi page: [URLEncoder on PyPi](https://pypi.python.org/pypi?name=URLEncoder&:action=display)
-
 ## Usage
 When you have **downloaded** this library, for using it the easiest way is:
 
